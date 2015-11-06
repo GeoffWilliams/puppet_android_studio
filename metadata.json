@@ -1,0 +1,14 @@
+{
+  "name": "geoffwilliams-android_studio",
+  "version": "0.1.0",
+  "author": "geoffwilliams",
+  "summary": "install android studio with puppet",
+  "license": "Apache-2.0",
+  "source": "https://github.com/GeoffWilliams/puppet_android_studio",
+  "project_page": "https://github.com/GeoffWilliams/puppet_android_studio",
+  "issues_url": "https://github.com/GeoffWilliams/puppet_android_studio/issues",
+  "dependencies": [
+    {"name":"puppetlabs-stdlib","version_requirement":">= 1.0.0"}
+  ]
+}
+
