@@ -1,4 +1,4 @@
-define android_studio($user = title) {
+define android_studio($user = $title) {
   case $operatingsystem {
     "Ubuntu": {
       $deploy_dir = "/home/${user}/tools/android-studio"
