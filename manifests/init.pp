@@ -9,7 +9,6 @@ define android_studio($user = $title) {
           "/usr/bin",
         ],
         creates => $deploy_dir,
-        user    => $user,
       }
     }
     default: { 
