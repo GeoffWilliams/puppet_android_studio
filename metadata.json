@@ -8,7 +8,6 @@
   "project_page": "https://github.com/GeoffWilliams/puppet_android_studio",
   "issues_url": "https://github.com/GeoffWilliams/puppet_android_studio/issues",
   "dependencies": [
-    {"name":"puppetlabs-stdlib","version_requirement":">= 1.0.0"}
   ]
 }
 

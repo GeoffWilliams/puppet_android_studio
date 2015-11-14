@@ -1,3 +1,12 @@
+# android_studio
+# ==============
+# Install android studio using umake (ubuntu make).  Only supports Ubuntu at
+# the moment (eg forever...)
+#
+# Parameters
+# ==========
+# [*user*]
+#   user to install android studio for.  defaults to $title
 define android_studio($user = $title) {
   case $operatingsystem {
     "Ubuntu": {
@@ -13,7 +22,7 @@ define android_studio($user = $title) {
       }
     }
     default: { 
-      notify { "only ubuntu supported by ${module_name} for now": }
+      fail("only ubuntu supported by ${module_name} for now")
     }
   }
 }
