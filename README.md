@@ -1,4 +1,5 @@
 # android_studio
+[![Build Status](https://travis-ci.org/GeoffWilliams/puppet_android_studio.svg)](https://travis-ci.org/GeoffWilliams/puppet_android_studio)
 
 #### Table of Contents
 
